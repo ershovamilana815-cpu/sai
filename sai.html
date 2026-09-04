@@ -1,0 +1,70 @@
+<!DOCTYPE html> <html lang="ru"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Мой сайт</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 50px;
+        border-radius: 20px;
+        max-width: 600px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    button {
+        border: none;
+        padding: 15px 30px;
+        border-radius: 30px;
+        background: white;
+        color: #667eea;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        background: #f0f0f0;
+    }
+</style>
+
+</head> <body>
+<div class="container">
+    <h1> 👋</h1>
+
+    <p>
+        Здесь можно разместить любую информацию о себе или своём проекте.
+    </p>
+
+    <button onclick="alert('Успешно 😊')">
+        Нажми меня
+    </button>
+</div>
+
+</body> </html>
